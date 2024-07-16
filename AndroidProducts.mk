@@ -24,9 +24,13 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_slider.mk \
     $(LOCAL_DIR)/aosp_whitefin.mk \
     $(LOCAL_DIR)/factory_whitefin.mk
+    $(LOCAL_DIR)/lineage_oriole.mk \
+    $(LOCAL_DIR)/lineage_raven.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_slider-trunk_staging-userdebug \
     aosp_whitefin-trunk_staging-userdebug \
     aosp_oriole-trunk_staging-userdebug \
-    aosp_raven-trunk_staging-userdebug
+    aosp_raven-trunk_staging-userdebug \
+    lineage_oriole-trunk_staging-userdebug \
+    lineage_raven-trunk_staging-userdebug
