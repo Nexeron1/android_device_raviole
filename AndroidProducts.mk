@@ -23,7 +23,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_slider.mk \
     $(LOCAL_DIR)/full_slider.mk \
     $(LOCAL_DIR)/aosp_whitefin.mk \
-    $(LOCAL_DIR)/factory_whitefin.mk
+    $(LOCAL_DIR)/factory_whitefin.mk \
     $(LOCAL_DIR)/lineage_oriole.mk \
     $(LOCAL_DIR)/lineage_raven.mk
 
