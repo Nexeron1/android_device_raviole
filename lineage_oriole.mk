@@ -18,7 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inhreit device stuff
 $(call inherit-product, device/google/gs101/aosp_common.mk)
-$(call inherit-product, device/google/raviole/device-raven.mk)
+$(call inherit-product, device/google/raviole/device-oriole.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 PRODUCT_NAME := lineage_oriole
